@@ -92,7 +92,7 @@ docker run -dt \
   -p 445:445 \
   --name samba \
   --restart=always \
-  stanback/alpine-samba
+  steffenblake/alpine-samba
 ```
 
 You can replace `-p 445:445` with `--net=host` above if you want to use your
